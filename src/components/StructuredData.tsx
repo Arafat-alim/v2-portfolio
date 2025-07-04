@@ -8,7 +8,7 @@ export default function StructuredData() {
     "name": "Arafat Alim",
     "jobTitle": "Full Stack Developer",
     "description": "Professional Full Stack MERN Developer specializing in React, Node.js, MongoDB, and modern web technologies.",
-    "url": "https://dev-arafat.netlify.app",
+    "url": "https://v2.dev-arafat-alim.org",
     "sameAs": [
       "https://github.com/Arafat-alim",
       "https://www.linkedin.com/in/arafat-alim/",
