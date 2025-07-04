@@ -4,10 +4,18 @@ import path from "path";
 
 export default defineConfig({
   plugins: [react()],
-  publicDir: 'public',
+  publicDir: "public",
   resolve: {
     alias: {
       "@": path.resolve(__dirname, "./src"),
     },
   },
-})
+  server: {
+    proxy: {
+      "/api": {
+        target: "http://localhost:5000",
+        changeOrigin: true,
+      },
+    },
+  },
+});
