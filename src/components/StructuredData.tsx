@@ -9,6 +9,7 @@ export default function StructuredData() {
     "jobTitle": "Full Stack Developer",
     "description": "Professional Full Stack MERN Developer specializing in React, Node.js, MongoDB, and modern web technologies.",
     "url": "https://v2.dev-arafat-alim.org",
+    "image": "https://avatars.githubusercontent.com/u/76907565?v=4",
     "sameAs": [
       "https://github.com/Arafat-alim",
       "https://www.linkedin.com/in/arafat-alim/",
