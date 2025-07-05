@@ -76,8 +76,6 @@ export default function StructuredData() {
       "@type": "PostalAddress",
       addressCountry: "India",
     },
-    keywords:
-      "Arafat, Arafat Aman, Arafat Aman Alim, Alim, Full Stack Developer, MERN Stack",
   };
 
   return (
