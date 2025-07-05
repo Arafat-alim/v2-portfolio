@@ -1,29 +1,31 @@
-import React, { useState, useEffect } from 'react'
-import { motion, AnimatePresence } from 'framer-motion'
-import { Code2 } from 'lucide-react'
+'use client';
+
+import { useState, useEffect } from 'react';
+import { motion, AnimatePresence } from 'framer-motion';
+import { Code2 } from 'lucide-react';
 
 export default function LoadingScreen() {
-  const [isLoading, setIsLoading] = useState(true)
-  const [progress, setProgress] = useState(0)
+  const [isLoading, setIsLoading] = useState(true);
+  const [progress, setProgress] = useState(0);
 
   useEffect(() => {
-    const timer = setTimeout(() => setIsLoading(false), 3000)
+    const timer = setTimeout(() => setIsLoading(false), 3000);
     
     const progressTimer = setInterval(() => {
       setProgress((prev) => {
         if (prev >= 100) {
-          clearInterval(progressTimer)
-          return 100
+          clearInterval(progressTimer);
+          return 100;
         }
-        return prev + 2
-      })
-    }, 50)
+        return prev + 2;
+      });
+    }, 50);
 
     return () => {
-      clearTimeout(timer)
-      clearInterval(progressTimer)
-    }
-  }, [])
+      clearTimeout(timer);
+      clearInterval(progressTimer);
+    };
+  }, []);
 
   return (
     <AnimatePresence>
@@ -91,5 +93,5 @@ export default function LoadingScreen() {
         </motion.div>
       )}
     </AnimatePresence>
-  )
+  );
 }

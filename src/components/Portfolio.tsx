@@ -1,9 +1,11 @@
-import React, { useState } from 'react'
-import { motion, AnimatePresence } from 'framer-motion'
-import { ExternalLink, Github } from 'lucide-react'
-import { Button } from './ui/button'
+'use client';
 
-const filters = ['all', 'featured', 'web', 'game', 'ui', 'react']
+import { useState } from 'react';
+import { motion, AnimatePresence } from 'framer-motion';
+import { ExternalLink, Github } from 'lucide-react';
+import { Button } from '@/components/ui/button';
+
+const filters = ['all', 'featured', 'web', 'game', 'ui', 'react'];
 
 const projects = [
   {
@@ -66,23 +68,23 @@ const projects = [
     githubUrl: 'https://github.com/Arafat-alim/music-player',
     tags: ['JavaScript', 'Audio API', 'Music'],
   },
-]
+];
 
 export default function Portfolio() {
-  const [activeFilter, setActiveFilter] = useState('all')
-  const [filteredProjects, setFilteredProjects] = useState(projects)
+  const [activeFilter, setActiveFilter] = useState('all');
+  const [filteredProjects, setFilteredProjects] = useState(projects);
 
   const handleFilter = (filter: string) => {
-    setActiveFilter(filter)
+    setActiveFilter(filter);
     
     if (filter === 'all') {
-      setFilteredProjects(projects)
+      setFilteredProjects(projects);
     } else {
       setFilteredProjects(projects.filter(project => 
         project.category.includes(filter)
-      ))
+      ));
     }
-  }
+  };
 
   return (
     <section id="work" className="py-20 px-6">
@@ -197,5 +199,5 @@ export default function Portfolio() {
         </div>
       </div>
     </section>
-  )
+  );
 }

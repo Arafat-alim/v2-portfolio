@@ -1,7 +1,8 @@
-import React from 'react'
-import { motion } from 'framer-motion'
-import { ArrowRight, Download, Github, Linkedin, Twitter } from 'lucide-react'
-import { Button } from './ui/button'
+'use client';
+
+import { motion } from 'framer-motion';
+import { ArrowRight, Download, Github, Linkedin, Twitter } from 'lucide-react';
+import { Button } from '@/components/ui/button';
 
 export default function Hero() {
   return (
@@ -215,5 +216,5 @@ export default function Hero() {
         </div>
       </div>
     </section>
-  )
+  );
 }

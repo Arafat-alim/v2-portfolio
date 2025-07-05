@@ -1,6 +1,7 @@
-import React from 'react'
-import { motion } from 'framer-motion'
-import { Award, AlignCenterVertical as Certificate, Trophy, Medal } from 'lucide-react'
+'use client';
+
+import { motion } from 'framer-motion';
+import { Award, AlignCenterVertical as Certificate, Trophy, Medal } from 'lucide-react';
 
 const achievements = [
   {
@@ -35,7 +36,7 @@ const achievements = [
     description: 'Specialized in building scalable backend applications with Node.js and Express',
     color: 'green'
   },
-]
+];
 
 export default function Achievements() {
   return (
@@ -129,5 +130,5 @@ export default function Achievements() {
         </motion.div>
       </div>
     </section>
-  )
+  );
 }

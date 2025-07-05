@@ -1,6 +1,7 @@
-import React from 'react'
-import { motion } from 'framer-motion'
-import { Star, Quote } from 'lucide-react'
+'use client';
+
+import { motion } from 'framer-motion';
+import { Star, Quote } from 'lucide-react';
 
 const testimonials = [
   {
@@ -11,7 +12,7 @@ const testimonials = [
     content: 'Arafat is a great web developer who has a lot of experience. He has helped me with my website and he is always willing to help me with anything I need. He is always available to help me and he always does a great job. I would recommend Arafat to anyone who needs a web developer.',
     rating: 5
   },
-]
+];
 
 const companies = [
   { name: 'Finezzy', image: 'https://cdn.sanity.io/images/gci1ca0d/production/f1f8f0bcd8c18b368d2bfb54744e003c2e8ba2f9-1000x340.png' },
@@ -21,7 +22,7 @@ const companies = [
   { name: 'Freelancer', image: 'https://cdn.sanity.io/images/gci1ca0d/production/b86635b7f7a80cb982405b38deb167d2bcf0a4ae-4200x1417.png' },
   { name: 'Genpact India', image: 'https://cdn.sanity.io/images/gci1ca0d/production/dd94d4e5f1b18bdf7e7cac2a94a175f7e3fc3997-244x110.png' },
   { name: "Newton's School", image: 'https://cdn.sanity.io/images/gci1ca0d/production/1f25f6e626e55c39b33bafae9c03aaba9efb88c9-263x50.png' },
-]
+];
 
 export default function Testimonials() {
   return (
@@ -113,5 +114,5 @@ export default function Testimonials() {
         </motion.div>
       </div>
     </section>
-  )
+  );
 }

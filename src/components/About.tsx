@@ -1,6 +1,7 @@
-import React from 'react'
-import { motion } from 'framer-motion'
-import { Code, Database, Globe } from 'lucide-react'
+'use client';
+
+import { motion } from 'framer-motion';
+import { Code, Database, Globe } from 'lucide-react';
 
 const services = [
   {
@@ -21,7 +22,7 @@ const services = [
     description: 'I worked closely with web designers to create a website that looks and feels great to the user.',
     image: 'https://cdn.sanity.io/images/gci1ca0d/production/ade9f5eda0b50be3c1aa8c3321e9bf24df9d45ab-540x360.jpg'
   },
-]
+];
 
 export default function About() {
   return (
@@ -71,5 +72,5 @@ export default function About() {
         </div>
       </div>
     </section>
-  )
+  );
 }

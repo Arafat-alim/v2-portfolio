@@ -1,5 +1,6 @@
-import React from 'react'
-import { motion } from 'framer-motion'
+'use client';
+
+import { motion } from 'framer-motion';
 
 const skills = [
   { name: 'Figma', image: 'https://cdn.sanity.io/images/gci1ca0d/production/6551e520e801ab656029527c09265981c06dce33-480x480.png' },
@@ -14,7 +15,7 @@ const skills = [
   { name: 'JavaScript', image: 'https://cdn.sanity.io/images/gci1ca0d/production/66bbf9242b1ccffebb5d46f376f5036b527fad48-480x480.png' },
   { name: 'Next JS', image: 'https://cdn.sanity.io/images/gci1ca0d/production/ba60e94d442b9f776c5273568b5faae5b8c70321-500x500.png' },
   { name: 'PostgreSQL', image: 'https://cdn.sanity.io/images/gci1ca0d/production/08fc41a58fc3ce433b7b61e95589baa39078707c-500x500.png' },
-]
+];
 
 const experiences = [
   {
@@ -38,7 +39,7 @@ const experiences = [
     description: 'I interned as a Full Stack MERN Web Developer at Newton School. I worked on a wide variety of projects, including front-end development, back-end development, database design, and server administration.',
     color: 'indigo'
   },
-]
+];
 
 export default function Skills() {
   return (
@@ -139,5 +140,5 @@ export default function Skills() {
         </motion.div>
       </div>
     </section>
-  )
+  );
 }

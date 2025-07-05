@@ -1,10 +1,12 @@
-import React, { useState } from 'react'
-import { motion } from 'framer-motion'
-import { Mail, Phone, Send, MapPin } from 'lucide-react'
-import { Button } from './ui/button'
-import { Input } from './ui/input'
-import { Textarea } from './ui/textarea'
-import { toast } from 'sonner'
+'use client';
+
+import { useState } from 'react';
+import { motion } from 'framer-motion';
+import { Mail, Phone, Send, MapPin } from 'lucide-react';
+import { Button } from '@/components/ui/button';
+import { Input } from '@/components/ui/input';
+import { Textarea } from '@/components/ui/textarea';
+import { toast } from 'sonner';
 
 export default function Contact() {
   const [formData, setFormData] = useState({
@@ -12,12 +14,12 @@ export default function Contact() {
     email: '',
     subject: '',
     message: ''
-  })
-  const [isSubmitting, setIsSubmitting] = useState(false)
+  });
+  const [isSubmitting, setIsSubmitting] = useState(false);
 
   const handleSubmit = async (e: React.FormEvent) => {
-    e.preventDefault()
-    setIsSubmitting(true)
+    e.preventDefault();
+    setIsSubmitting(true);
 
     try {
       const response = await fetch('/api/contact', {
@@ -26,27 +28,27 @@ export default function Contact() {
           'Content-Type': 'application/json',
         },
         body: JSON.stringify(formData),
-      })
+      });
 
       if (response.ok) {
-        toast.success('Message sent successfully! I\'ll get back to you soon.')
-        setFormData({ name: '', email: '', subject: '', message: '' })
+        toast.success('Message sent successfully! I\'ll get back to you soon.');
+        setFormData({ name: '', email: '', subject: '', message: '' });
       } else {
-        throw new Error('Failed to send message')
+        throw new Error('Failed to send message');
       }
     } catch (error) {
-      toast.error('Failed to send message. Please try again.')
+      toast.error('Failed to send message. Please try again.');
     } finally {
-      setIsSubmitting(false)
+      setIsSubmitting(false);
     }
-  }
+  };
 
   const handleChange = (e: React.ChangeEvent<HTMLInputElement | HTMLTextAreaElement>) => {
     setFormData(prev => ({
       ...prev,
       [e.target.name]: e.target.value
-    }))
-  }
+    }));
+  };
 
   return (
     <section id="contact" className="py-20 px-6 bg-muted/30">
@@ -115,10 +117,10 @@ export default function Contact() {
                 <div>
                   <h4 className="font-semibold text-foreground">Phone</h4>
                   <a
-                    href="tel:+918282985207"
+                    href="tel:"
                     className="text-muted-foreground hover:text-purple-400 transition-colors duration-200"
                   >
-                    +91 (828) 298-5207
+                    
                   </a>
                 </div>
               </motion.div>
@@ -230,5 +232,5 @@ export default function Contact() {
         </div>
       </div>
     </section>
-  )
+  );
 }

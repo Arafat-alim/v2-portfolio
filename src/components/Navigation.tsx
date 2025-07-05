@@ -1,7 +1,9 @@
-import React, { useState, useEffect } from 'react'
-import { motion } from 'framer-motion'
-import { Code2, Menu, X } from 'lucide-react'
-import { Button } from './ui/button'
+'use client';
+
+import { useState, useEffect } from 'react';
+import { motion } from 'framer-motion';
+import { Code2, Menu, X } from 'lucide-react';
+import { Button } from '@/components/ui/button';
 
 const navItems = [
   { href: '#home', label: 'Home' },
@@ -11,20 +13,20 @@ const navItems = [
   { href: '#achievements', label: 'Achievements' },
   { href: '#testimonials', label: 'Testimonials' },
   { href: '#contact', label: 'Contact' },
-]
+];
 
 export default function Navigation() {
-  const [isOpen, setIsOpen] = useState(false)
-  const [scrolled, setScrolled] = useState(false)
+  const [isOpen, setIsOpen] = useState(false);
+  const [scrolled, setScrolled] = useState(false);
 
   useEffect(() => {
     const handleScroll = () => {
-      setScrolled(window.scrollY > 50)
-    }
+      setScrolled(window.scrollY > 50);
+    };
 
-    window.addEventListener('scroll', handleScroll)
-    return () => window.removeEventListener('scroll', handleScroll)
-  }, [])
+    window.addEventListener('scroll', handleScroll);
+    return () => window.removeEventListener('scroll', handleScroll);
+  }, []);
 
   return (
     <motion.nav
@@ -102,5 +104,5 @@ export default function Navigation() {
         )}
       </div>
     </motion.nav>
-  )
+  );
 }

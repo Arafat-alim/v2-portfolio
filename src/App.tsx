@@ -1,10 +1,10 @@
-import React from 'react'
-import { Routes, Route } from 'react-router-dom'
-import { Toaster } from 'sonner'
-import Home from './pages/Home'
-import Login from './pages/Login'
-import Admin from './pages/Admin'
-import StructuredData from './components/StructuredData'
+import React from "react";
+import { Routes, Route } from "react-router-dom";
+import { Toaster } from "sonner";
+import Home from "./pages/Home";
+import Login from "./pages/Login";
+import Admin from "./pages/Admin";
+import StructuredData from "./components/StructuredData";
 
 function App() {
   return (
@@ -19,7 +19,7 @@ function App() {
         <Toaster />
       </div>
     </>
-  )
+  );
 }
 
-export default App
+export default App;

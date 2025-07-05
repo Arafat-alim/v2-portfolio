@@ -1,6 +1,7 @@
-import React from 'react'
-import { motion } from 'framer-motion'
-import { Code2, Github, Linkedin, Twitter, Mail, Phone } from 'lucide-react'
+'use client';
+
+import { motion } from 'framer-motion';
+import { Code2, Github, Linkedin, Twitter, Mail, Phone } from 'lucide-react';
 
 const navItems = [
   { href: '#home', label: 'Home' },
@@ -10,14 +11,14 @@ const navItems = [
   { href: '#achievements', label: 'Achievements' },
   { href: '#testimonials', label: 'Testimonials' },
   { href: '#contact', label: 'Contact' },
-]
+];
 
 const socialLinks = [
   { href: 'https://github.com/Arafat-alim', icon: Github, label: 'GitHub' },
   { href: 'https://www.linkedin.com/in/arafat-alim/', icon: Linkedin, label: 'LinkedIn' },
   { href: 'https://twitter.com/CoderAlim', icon: Twitter, label: 'Twitter' },
   { href: 'mailto:arafat.aman.alim@gmail.com', icon: Mail, label: 'Email' },
-]
+];
 
 export default function Footer() {
   return (
@@ -100,10 +101,10 @@ export default function Footer() {
               <div className="flex items-center space-x-3">
                 <Phone className="w-4 h-4 text-purple-400" />
                 <a
-                  href="tel:+918282985207"
+                  href="tel:"
                   className="text-muted-foreground hover:text-purple-400 transition-colors duration-200"
                 >
-                  +91 (828) 298-5207
+                  
                 </a>
               </div>
             </div>
@@ -119,10 +120,10 @@ export default function Footer() {
           className="border-t border-border pt-8 text-center"
         >
           <p className="text-muted-foreground">
-            © 2024 Arafat Alim. All rights reserved. Built with ❤️ using React and Tailwind CSS.
+            © 2024 Arafat Alim. All rights reserved. Built with ❤️ using Next.js and Tailwind CSS.
           </p>
         </motion.div>
       </div>
     </footer>
-  )
+  );
 }

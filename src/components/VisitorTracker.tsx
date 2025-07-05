@@ -1,4 +1,6 @@
-import React, { useEffect } from 'react'
+'use client';
+
+import { useEffect } from 'react';
 
 export default function VisitorTracker() {
   useEffect(() => {
@@ -15,15 +17,15 @@ export default function VisitorTracker() {
             userAgent: navigator.userAgent,
             referrer: document.referrer || 'Direct',
           }),
-        })
+        });
       } catch (error) {
-        console.error('Failed to track visitor:', error)
+        console.error('Failed to track visitor:', error);
       }
-    }
+    };
 
     // Track on page load
-    trackVisitor()
-  }, [])
+    trackVisitor();
+  }, []);
 
-  return null
+  return null;
 }
