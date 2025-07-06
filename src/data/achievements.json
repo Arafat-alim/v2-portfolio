@@ -1,0 +1,30 @@
+[
+  {
+    "title": "Full Stack MERN Certification",
+    "issuer": "Newton's School",
+    "date": "2022",
+    "description": "Completed comprehensive full-stack development program covering React, Node.js, MongoDB, and Express.js",
+    "image": "https://api.accredible.com/v1/frontend/credential_website_embed_image/90293750"
+  },
+  {
+    "title": "JavaScript Algorithms Certification",
+    "issuer": "FreeCodeCamp",
+    "date": "2021",
+    "description": "Mastered advanced JavaScript concepts, data structures, and algorithmic problem solving",
+    "image": "https://freecodecamp.org/certification/Arafat-Alim/javascript-algorithms-and-data-structures"
+  },
+  {
+    "title": "React Development Expert",
+    "issuer": "Udemy",
+    "date": "2021",
+    "description": "Advanced React development including hooks, context API, and modern patterns",
+    "image": "https://www.udemy.com/certificate/UC-b1a91b1f-d9a0-4b7e-9b1e-5e1e1e1e1e1e/"
+  },
+  {
+    "title": "Node.js Backend Specialist",
+    "issuer": "Coursera",
+    "date": "2022",
+    "description": "Specialized in building scalable backend applications with Node.js and Express",
+    "image": "https://www.coursera.org/account/accomplishments/specialization/certificate/E9Z9Z9Z9Z9Z9"
+  }
+]
