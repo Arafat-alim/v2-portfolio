@@ -1,19 +1,19 @@
-'use client';
+"use client";
 
-import { useState } from 'react';
-import { motion } from 'framer-motion';
-import { Mail, Phone, Send, MapPin } from 'lucide-react';
-import { Button } from '@/components/ui/button';
-import { Input } from '@/components/ui/input';
-import { Textarea } from '@/components/ui/textarea';
-import { toast } from 'sonner';
+import { useState } from "react";
+import { motion } from "framer-motion";
+import { Mail, Send, MapPin } from "lucide-react";
+import { Button } from "@/components/ui/button";
+import { Input } from "@/components/ui/input";
+import { Textarea } from "@/components/ui/textarea";
+import { toast } from "sonner";
 
 export default function Contact() {
   const [formData, setFormData] = useState({
-    name: '',
-    email: '',
-    subject: '',
-    message: ''
+    name: "",
+    email: "",
+    subject: "",
+    message: "",
   });
   const [isSubmitting, setIsSubmitting] = useState(false);
 
@@ -22,31 +22,36 @@ export default function Contact() {
     setIsSubmitting(true);
 
     try {
-      const response = await fetch('/api/contact', {
-        method: 'POST',
+      const response = await fetch("/api/contact", {
+        method: "POST",
         headers: {
-          'Content-Type': 'application/json',
+          "Content-Type": "application/json",
         },
         body: JSON.stringify(formData),
       });
 
+      console.log("response", response);
+
       if (response.ok) {
-        toast.success('Message sent successfully! I\'ll get back to you soon.');
-        setFormData({ name: '', email: '', subject: '', message: '' });
+        toast.success("Message sent successfully! I'll get back to you soon.");
+        setFormData({ name: "", email: "", subject: "", message: "" });
       } else {
-        throw new Error('Failed to send message');
+        throw new Error("Failed to send message");
       }
     } catch (error) {
-      toast.error('Failed to send message. Please try again.');
+      toast.error("Failed to send message. Please try again.");
+      console.log("Error occur while sending the contact form: ", error);
     } finally {
       setIsSubmitting(false);
     }
   };
 
-  const handleChange = (e: React.ChangeEvent<HTMLInputElement | HTMLTextAreaElement>) => {
-    setFormData(prev => ({
+  const handleChange = (
+    e: React.ChangeEvent<HTMLInputElement | HTMLTextAreaElement>
+  ) => {
+    setFormData((prev) => ({
       ...prev,
-      [e.target.name]: e.target.value
+      [e.target.name]: e.target.value,
     }));
   };
 
@@ -61,10 +66,12 @@ export default function Contact() {
           className="text-center mb-16"
         >
           <h2 className="text-4xl lg:text-5xl font-bold mb-6">
-            🚀 <span className="gradient-text">Open to Collaborations</span> and Job Offers! 💼
+            🚀 <span className="gradient-text">Open to Collaborations</span> and
+            Job Offers! 💼
           </h2>
           <p className="text-xl text-muted-foreground mb-6">
-            I'm available for open-source work or your next hire. Let's explore how we can work together!
+            I'm available for open-source work or your next hire. Let's explore
+            how we can work together!
           </p>
           <div className="w-20 h-1 bg-gradient-to-r from-blue-500 to-purple-600 mx-auto rounded-full" />
         </motion.div>
@@ -83,8 +90,9 @@ export default function Contact() {
                 Let's work together
               </h3>
               <p className="text-muted-foreground text-lg leading-relaxed">
-                I'm always excited to work on new projects and meet fellow developers. 
-                Whether you have a project in mind or just want to connect, feel free to reach out!
+                I'm always excited to work on new projects and meet fellow
+                developers. Whether you have a project in mind or just want to
+                connect, feel free to reach out!
               </p>
             </div>
 
@@ -107,23 +115,20 @@ export default function Contact() {
                 </div>
               </motion.div>
 
-              <motion.div
+              {/* <motion.div
                 whileHover={{ x: 10 }}
                 className="flex items-center space-x-4"
               >
                 <div className="w-12 h-12 bg-purple-500/20 rounded-xl flex items-center justify-center">
-                  <Phone className="w-6 h-6 text-purple-400" />
+                  <Disc className="w-6 h-6 text-purple-400" />
                 </div>
                 <div>
-                  <h4 className="font-semibold text-foreground">Phone</h4>
-                  <a
-                    href="tel:"
-                    className="text-muted-foreground hover:text-purple-400 transition-colors duration-200"
-                  >
-                    
+                  <h4 className="font-semibold text-foreground">Discord</h4>
+                  <a href="https://discord.gg/jkhRbXbNw9" target="_blank" rel="noopener noreferrer" className="text-muted-foreground hover:text-purple-400 transition-colors">
+                    Join our server
                   </a>
                 </div>
-              </motion.div>
+              </motion.div> */}
 
               <motion.div
                 whileHover={{ x: 10 }}
@@ -150,7 +155,10 @@ export default function Contact() {
             <form onSubmit={handleSubmit} className="space-y-6">
               <div className="grid md:grid-cols-2 gap-6">
                 <div>
-                  <label htmlFor="name" className="block text-sm font-medium text-foreground mb-2">
+                  <label
+                    htmlFor="name"
+                    className="block text-sm font-medium text-foreground mb-2"
+                  >
                     Your Name
                   </label>
                   <Input
@@ -165,7 +173,10 @@ export default function Contact() {
                   />
                 </div>
                 <div>
-                  <label htmlFor="email" className="block text-sm font-medium text-foreground mb-2">
+                  <label
+                    htmlFor="email"
+                    className="block text-sm font-medium text-foreground mb-2"
+                  >
                     Your Email
                   </label>
                   <Input
@@ -182,7 +193,10 @@ export default function Contact() {
               </div>
 
               <div>
-                <label htmlFor="subject" className="block text-sm font-medium text-foreground mb-2">
+                <label
+                  htmlFor="subject"
+                  className="block text-sm font-medium text-foreground mb-2"
+                >
                   Subject
                 </label>
                 <Input
@@ -198,7 +212,10 @@ export default function Contact() {
               </div>
 
               <div>
-                <label htmlFor="message" className="block text-sm font-medium text-foreground mb-2">
+                <label
+                  htmlFor="message"
+                  className="block text-sm font-medium text-foreground mb-2"
+                >
                   Your Message
                 </label>
                 <Textarea
@@ -219,7 +236,7 @@ export default function Contact() {
                 className="w-full bg-gradient-to-r from-blue-500 to-purple-600 hover:from-blue-600 hover:to-purple-700 text-white font-medium py-6 text-lg glow"
               >
                 {isSubmitting ? (
-                  'Sending...'
+                  "Sending..."
                 ) : (
                   <>
                     Send Message

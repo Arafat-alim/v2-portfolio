@@ -1,7 +1,18 @@
 "use client";
 
 import { motion } from "framer-motion";
-import { Code2, Github, Linkedin, Twitter, Mail, Phone } from "lucide-react";
+import {
+  Code2,
+  Github,
+  Linkedin,
+  Twitter,
+  Mail,
+  Disc,
+  Codepen,
+  Globe,
+  BookOpenText,
+  Layers,
+} from "lucide-react";
 
 const navItems = [
   { href: "#home", label: "Home" },
@@ -22,6 +33,22 @@ const socialLinks = [
   },
   { href: "https://x.com/SagaciousSpark", icon: Twitter, label: "Twitter" },
   { href: "mailto:arafat.aman.alim@gmail.com", icon: Mail, label: "Email" },
+  {
+    href: "https://medium.com/@arafat.aman.alim",
+    icon: BookOpenText,
+    label: "Medium",
+  },
+  {
+    href: "https://codepen.io/dev-arafat-alim",
+    icon: Codepen,
+    label: "Codepen",
+  },
+  { href: "https://dev.to/dev-arafat-alim", icon: Globe, label: "Dev.to" },
+  {
+    href: "https://stackoverflow.com/users/20520620/arafat-alim",
+    icon: Layers,
+    label: "Stack Overflow",
+  },
 ];
 
 export default function Footer() {
@@ -104,13 +131,15 @@ export default function Footer() {
                   arafat.aman.alim@gmail.com
                 </a>
               </div>
-              <div className="flex items-center space-x-3">
-                <Phone className="w-4 h-4 text-purple-400" />
-                <a
-                  href="tel:"
-                  className="text-muted-foreground hover:text-purple-400 transition-colors duration-200"
-                ></a>
-              </div>
+              <a
+                href="https://discord.gg/jkhRbXbNw9"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="flex items-center space-x-2 text-muted-foreground hover:text-purple-400 transition-colors"
+              >
+                <Disc className="w-4 h-4 text-purple-400" />
+                <span>Join Discord</span>
+              </a>
             </div>
           </motion.div>
         </div>
