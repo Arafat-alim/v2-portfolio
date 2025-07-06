@@ -3,6 +3,7 @@ import LoadingScreen from '../components/LoadingScreen'
 import Hero from '../components/Hero'
 import About from '../components/About'
 import Portfolio from '../components/Portfolio'
+import Blogs from '../components/Blogs'
 import Skills from '../components/Skills'
 import Achievements from '../components/Achievements'
 import Testimonials from '../components/Testimonials'
@@ -21,6 +22,7 @@ export default function Home() {
         <Hero />
         <About />
         <Portfolio />
+        <Blogs />
         <Skills />
         <Achievements />
         <Testimonials />
