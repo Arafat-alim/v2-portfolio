@@ -2,9 +2,9 @@
   {
     "title": "Full Stack MERN Certification",
     "issuer": "Newton's School",
-    "date": "2022",
+    "date": "2021",
     "description": "Completed comprehensive full-stack development program covering React, Node.js, MongoDB, and Express.js",
-    "image": "https://api.accredible.com/v1/frontend/credential_website_embed_image/90293750"
+    "image": "https://res.cloudinary.com/cocoder/image/upload/v1658937982/Office/Academic/Certificates/certificate_1_q72zqc.png"
   },
   {
     "title": "JavaScript Algorithms Certification",
@@ -14,17 +14,59 @@
     "image": "https://freecodecamp.org/certification/Arafat-Alim/javascript-algorithms-and-data-structures"
   },
   {
-    "title": "React Development Expert",
-    "issuer": "Udemy",
-    "date": "2021",
+    "title": "Meta - Front-End Developer Professional Certificate - Advanced React",
+    "issuer": "Coursera",
+    "date": "2024",
     "description": "Advanced React development including hooks, context API, and modern patterns",
-    "image": "https://www.udemy.com/certificate/UC-b1a91b1f-d9a0-4b7e-9b1e-5e1e1e1e1e1e/"
+    "image": "https://res.cloudinary.com/cocoder/image/upload/v1729946822/Certificates/Coursera%20-%20Meta/Meta_-_Advanced_React_-_Coursera_78BV1N88AKUL_1_grif5m.jpg"
   },
   {
-    "title": "Node.js Backend Specialist",
+    "title": "Meta - Front-End Developer Professional Certificate - Basic React",
+    "issuer": "Coursera",
+    "date": "2022",
+    "description": "Advanced React development including hooks, context API, and modern patterns",
+    "image": "https://res.cloudinary.com/cocoder/image/upload/v1729946822/Certificates/Coursera%20-%20Meta/Meta_-_Advanced_React_-_Coursera_78BV1N88AKUL_1_grif5m.jpg"
+  },
+  {
+    "title": "Meta - Front-End Developer Professional Certificate - Basic React",
+    "issuer": "Coursera",
+    "date": "2022",
+    "description": "Advanced React development including hooks, context API, and modern patterns",
+    "image": "https://res.cloudinary.com/cocoder/image/upload/v1729946822/Certificates/Coursera%20-%20Meta/Meta_-_Advanced_React_-_Coursera_78BV1N88AKUL_1_grif5m.jpg"
+  },
+  {
+    "title": "Meta - Front-End Developer Professional Certificate - Basic React",
+    "issuer": "Coursera",
+    "date": "2022",
+    "description": "Advanced React development including hooks, context API, and modern patterns",
+    "image": "https://res.cloudinary.com/cocoder/image/upload/v1729946822/Certificates/Coursera%20-%20Meta/Meta_-_Advanced_React_-_Coursera_78BV1N88AKUL_1_grif5m.jpg"
+  },
+  {
+    "title": "Meta - Front-End Developer Professional Certificate - Basic React",
+    "issuer": "Coursera",
+    "date": "2022",
+    "description": "Advanced React development including hooks, context API, and modern patterns",
+    "image": "https://res.cloudinary.com/cocoder/image/upload/v1729946822/Certificates/Coursera%20-%20Meta/Meta_-_Advanced_React_-_Coursera_78BV1N88AKUL_1_grif5m.jpg"
+  },
+  {
+    "title": "Meta - Front-End Developer Professional Certificate - Basic React",
+    "issuer": "Coursera",
+    "date": "2022",
+    "description": "Advanced React development including hooks, context API, and modern patterns",
+    "image": "https://res.cloudinary.com/cocoder/image/upload/v1729946822/Certificates/Coursera%20-%20Meta/Meta_-_Advanced_React_-_Coursera_78BV1N88AKUL_1_grif5m.jpg"
+  },
+  {
+    "title": "Meta - Front-End Developer Professional Certificate - Basic React",
+    "issuer": "Coursera",
+    "date": "2022",
+    "description": "Advanced React development including hooks, context API, and modern patterns",
+    "image": "https://res.cloudinary.com/cocoder/image/upload/v1729946822/Certificates/Coursera%20-%20Meta/Meta_-_Advanced_React_-_Coursera_78BV1N88AKUL_1_grif5m.jpg"
+  },
+  {
+    "title": "The Hong Kong University of Science and Technology - Server-side Development with NodeJS, Express and MongoDB",
     "issuer": "Coursera",
     "date": "2022",
     "description": "Specialized in building scalable backend applications with Node.js and Express",
-    "image": "https://www.coursera.org/account/accomplishments/specialization/certificate/E9Z9Z9Z9Z9Z9"
+    "image": "https://res.cloudinary.com/cocoder/image/upload/v1732999985/Certificates/Coursera%20-%20Backend/Hong_Kong_Univ_-_Server-side_Development_with_NodeJS_Express_-Coursera_BHWK27S6AQAY_1_c5i3ln.png"
   }
 ]

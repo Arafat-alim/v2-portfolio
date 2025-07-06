@@ -1,10 +1,10 @@
+"use client";
 
-'use client';
-
-import { motion } from 'framer-motion';
-import { ExternalLink } from 'lucide-react';
-import { Button } from '@/components/ui/button';
-import blogs from '@/data/blogs.json';
+import { motion } from "framer-motion";
+import { ExternalLink } from "lucide-react";
+import { Button } from "@/components/ui/button";
+import blogs from "@/data/blogs.json";
+import GradientButton from "./ui/GradientButton";
 
 export default function Blogs() {
   return (
@@ -34,26 +34,29 @@ export default function Blogs() {
               whileHover={{ y: -10 }}
               className="bg-card border border-border rounded-2xl overflow-hidden hover:shadow-2xl transition-all duration-300 group"
             >
-              <img src={blog.image} alt={blog.title} className="w-full h-48 object-cover transition-transform duration-300 group-hover:scale-110" />
+              <img
+                src={blog.image}
+                alt={blog.title}
+                className="w-full h-48 object-cover transition-transform duration-300 group-hover:scale-110"
+              />
               <div className="p-8">
                 <h3 className="text-xl font-semibold mb-4 text-foreground">
                   {blog.title}
                 </h3>
-                
+
                 <p className="text-muted-foreground leading-relaxed mb-6">
                   {blog.description}
                 </p>
 
-                <Button
+                <GradientButton
                   size="sm"
                   className="bg-white/20 backdrop-blur-sm text-white border-white/30 hover:bg-white/30"
                   asChild
                 >
                   <a href={blog.url} target="_blank" rel="noopener noreferrer">
-                    <ExternalLink className="w-4 h-4 mr-2" />
                     Read More
                   </a>
-                </Button>
+                </GradientButton>
               </div>
             </motion.div>
           ))}
