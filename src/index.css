@@ -85,6 +85,17 @@
   .glow-purple {
     box-shadow: 0 0 20px rgba(139, 92, 246, 0.3);
   }
+
+  .embla {
+    overflow: hidden;
+  }
+  .embla__container {
+    display: flex;
+  }
+  .embla__slide {
+    flex: 0 0 100%;
+    min-width: 0;
+  }
 }
 
 @keyframes floating {
