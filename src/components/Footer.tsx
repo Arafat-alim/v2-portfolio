@@ -1,23 +1,27 @@
-'use client';
+"use client";
 
-import { motion } from 'framer-motion';
-import { Code2, Github, Linkedin, Twitter, Mail, Phone } from 'lucide-react';
+import { motion } from "framer-motion";
+import { Code2, Github, Linkedin, Twitter, Mail, Phone } from "lucide-react";
 
 const navItems = [
-  { href: '#home', label: 'Home' },
-  { href: '#about', label: 'About' },
-  { href: '#work', label: 'Work' },
-  { href: '#skills', label: 'Skills' },
-  { href: '#achievements', label: 'Achievements' },
-  { href: '#testimonials', label: 'Testimonials' },
-  { href: '#contact', label: 'Contact' },
+  { href: "#home", label: "Home" },
+  { href: "#about", label: "About" },
+  { href: "#work", label: "Work" },
+  { href: "#skills", label: "Skills" },
+  { href: "#achievements", label: "Achievements" },
+  { href: "#testimonials", label: "Testimonials" },
+  { href: "#contact", label: "Contact" },
 ];
 
 const socialLinks = [
-  { href: 'https://github.com/Arafat-alim', icon: Github, label: 'GitHub' },
-  { href: 'https://www.linkedin.com/in/arafat-alim/', icon: Linkedin, label: 'LinkedIn' },
-  { href: 'https://twitter.com/CoderAlim', icon: Twitter, label: 'Twitter' },
-  { href: 'mailto:arafat.aman.alim@gmail.com', icon: Mail, label: 'Email' },
+  { href: "https://github.com/Arafat-alim", icon: Github, label: "GitHub" },
+  {
+    href: "https://www.linkedin.com/in/arafat-alim/",
+    icon: Linkedin,
+    label: "LinkedIn",
+  },
+  { href: "https://x.com/SagaciousSpark", icon: Twitter, label: "Twitter" },
+  { href: "mailto:arafat.aman.alim@gmail.com", icon: Mail, label: "Email" },
 ];
 
 export default function Footer() {
@@ -36,11 +40,13 @@ export default function Footer() {
               <div className="w-10 h-10 rounded-lg bg-gradient-to-r from-blue-500 to-purple-600 flex items-center justify-center">
                 <Code2 className="w-6 h-6 text-white" />
               </div>
-              <span className="text-xl font-bold gradient-text">Dev. Arafat Alim</span>
+              <span className="text-xl font-bold gradient-text">
+                Dev. Arafat Alim
+              </span>
             </a>
             <p className="text-muted-foreground mb-4">
-              Full Stack Developer passionate about creating exceptional digital experiences
-              with modern technologies.
+              Full Stack Developer passionate about creating exceptional digital
+              experiences with modern technologies.
             </p>
             <div className="flex space-x-4">
               {socialLinks.map((link) => (
@@ -103,9 +109,7 @@ export default function Footer() {
                 <a
                   href="tel:"
                   className="text-muted-foreground hover:text-purple-400 transition-colors duration-200"
-                >
-                  
-                </a>
+                ></a>
               </div>
             </div>
           </motion.div>
@@ -120,7 +124,8 @@ export default function Footer() {
           className="border-t border-border pt-8 text-center"
         >
           <p className="text-muted-foreground">
-            © 2024 Arafat Alim. All rights reserved. Built with ❤️ using Next.js and Tailwind CSS.
+            © 2025 Arafat Alim. All rights reserved. Built with ❤️ using Next.js
+            and Tailwind CSS.
           </p>
         </motion.div>
       </div>

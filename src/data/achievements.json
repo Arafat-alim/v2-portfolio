@@ -1,0 +1,72 @@
+[
+  {
+    "title": "Full Stack MERN Certification",
+    "issuer": "Newton's School",
+    "date": "2021",
+    "description": "Completed comprehensive full-stack development program covering React, Node.js, MongoDB, and Express.js",
+    "image": "https://res.cloudinary.com/cocoder/image/upload/v1658937982/Office/Academic/Certificates/certificate_1_q72zqc.png"
+  },
+  {
+    "title": "JavaScript Algorithms Certification",
+    "issuer": "FreeCodeCamp",
+    "date": "2021",
+    "description": "Mastered advanced JavaScript concepts, data structures, and algorithmic problem solving",
+    "image": "https://freecodecamp.org/certification/Arafat-Alim/javascript-algorithms-and-data-structures"
+  },
+  {
+    "title": "Meta - Front-End Developer Professional Certificate - Advanced React",
+    "issuer": "Coursera",
+    "date": "2024",
+    "description": "Advanced React development including hooks, context API, and modern patterns",
+    "image": "https://res.cloudinary.com/cocoder/image/upload/v1729946822/Certificates/Coursera%20-%20Meta/Meta_-_Advanced_React_-_Coursera_78BV1N88AKUL_1_grif5m.jpg"
+  },
+  {
+    "title": "Meta - Front-End Developer Professional Certificate - Basic React",
+    "issuer": "Coursera",
+    "date": "2022",
+    "description": "Advanced React development including hooks, context API, and modern patterns",
+    "image": "https://res.cloudinary.com/cocoder/image/upload/v1729946822/Certificates/Coursera%20-%20Meta/Meta_-_Advanced_React_-_Coursera_78BV1N88AKUL_1_grif5m.jpg"
+  },
+  {
+    "title": "Meta - Front-End Developer Professional Certificate - Basic React",
+    "issuer": "Coursera",
+    "date": "2022",
+    "description": "Advanced React development including hooks, context API, and modern patterns",
+    "image": "https://res.cloudinary.com/cocoder/image/upload/v1729946822/Certificates/Coursera%20-%20Meta/Meta_-_Advanced_React_-_Coursera_78BV1N88AKUL_1_grif5m.jpg"
+  },
+  {
+    "title": "Meta - Front-End Developer Professional Certificate - Basic React",
+    "issuer": "Coursera",
+    "date": "2022",
+    "description": "Advanced React development including hooks, context API, and modern patterns",
+    "image": "https://res.cloudinary.com/cocoder/image/upload/v1729946822/Certificates/Coursera%20-%20Meta/Meta_-_Advanced_React_-_Coursera_78BV1N88AKUL_1_grif5m.jpg"
+  },
+  {
+    "title": "Meta - Front-End Developer Professional Certificate - Basic React",
+    "issuer": "Coursera",
+    "date": "2022",
+    "description": "Advanced React development including hooks, context API, and modern patterns",
+    "image": "https://res.cloudinary.com/cocoder/image/upload/v1729946822/Certificates/Coursera%20-%20Meta/Meta_-_Advanced_React_-_Coursera_78BV1N88AKUL_1_grif5m.jpg"
+  },
+  {
+    "title": "Meta - Front-End Developer Professional Certificate - Basic React",
+    "issuer": "Coursera",
+    "date": "2022",
+    "description": "Advanced React development including hooks, context API, and modern patterns",
+    "image": "https://res.cloudinary.com/cocoder/image/upload/v1729946822/Certificates/Coursera%20-%20Meta/Meta_-_Advanced_React_-_Coursera_78BV1N88AKUL_1_grif5m.jpg"
+  },
+  {
+    "title": "Meta - Front-End Developer Professional Certificate - Basic React",
+    "issuer": "Coursera",
+    "date": "2022",
+    "description": "Advanced React development including hooks, context API, and modern patterns",
+    "image": "https://res.cloudinary.com/cocoder/image/upload/v1729946822/Certificates/Coursera%20-%20Meta/Meta_-_Advanced_React_-_Coursera_78BV1N88AKUL_1_grif5m.jpg"
+  },
+  {
+    "title": "The Hong Kong University of Science and Technology - Server-side Development with NodeJS, Express and MongoDB",
+    "issuer": "Coursera",
+    "date": "2022",
+    "description": "Specialized in building scalable backend applications with Node.js and Express",
+    "image": "https://res.cloudinary.com/cocoder/image/upload/v1732999985/Certificates/Coursera%20-%20Backend/Hong_Kong_Univ_-_Server-side_Development_with_NodeJS_Express_-Coursera_BHWK27S6AQAY_1_c5i3ln.png"
+  }
+]

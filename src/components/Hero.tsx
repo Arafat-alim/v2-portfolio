@@ -1,12 +1,15 @@
-'use client';
+"use client";
 
-import { motion } from 'framer-motion';
-import { ArrowRight, Download, Github, Linkedin, Twitter } from 'lucide-react';
-import { Button } from '@/components/ui/button';
+import { motion } from "framer-motion";
+import { ArrowRight, Download, Github, Linkedin, Twitter } from "lucide-react";
+import { Button } from "@/components/ui/button";
 
 export default function Hero() {
   return (
-    <section id="home" className="min-h-screen flex items-center justify-center pt-20 px-6 relative overflow-hidden">
+    <section
+      id="home"
+      className="min-h-screen flex items-center justify-center pt-20 px-6 relative overflow-hidden"
+    >
       {/* Background Animation */}
       <div className="absolute inset-0 overflow-hidden">
         <div className="absolute -top-40 -right-40 w-80 h-80 bg-blue-500/10 rounded-full blur-3xl animate-pulse" />
@@ -56,8 +59,9 @@ export default function Hero() {
               transition={{ delay: 1 }}
               className="text-xl text-muted-foreground max-w-2xl leading-relaxed"
             >
-              I build exceptional digital experiences that are fast, accessible, visually appealing, and responsive. 
-              Specializing in MERN stack and modern web technologies.
+              I build exceptional digital experiences that are fast, accessible,
+              visually appealing, and responsive. Specializing in MERN stack and
+              modern web technologies.
             </motion.p>
 
             <motion.div
@@ -115,7 +119,7 @@ export default function Hero() {
                   <Linkedin className="w-6 h-6" />
                 </a>
                 <a
-                  href="https://twitter.com/CoderAlim"
+                  href="https://x.com/SagaciousSpark"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="text-muted-foreground hover:text-foreground transition-colors duration-200"
@@ -144,10 +148,10 @@ export default function Hero() {
                 transition={{
                   duration: 6,
                   repeat: Infinity,
-                  ease: "easeInOut"
+                  ease: "easeInOut",
                 }}
               />
-              
+
               {/* Decorative Circle */}
               <motion.div
                 className="absolute inset-0 w-80 h-80 lg:w-96 lg:h-96"
@@ -157,7 +161,7 @@ export default function Hero() {
                 transition={{
                   duration: 20,
                   repeat: Infinity,
-                  ease: "linear"
+                  ease: "linear",
                 }}
               >
                 <svg
@@ -176,7 +180,13 @@ export default function Hero() {
                     fill="none"
                   />
                   <defs>
-                    <linearGradient id="gradient" x1="0%" y1="0%" x2="100%" y2="100%">
+                    <linearGradient
+                      id="gradient"
+                      x1="0%"
+                      y1="0%"
+                      x2="100%"
+                      y2="100%"
+                    >
                       <stop offset="0%" stopColor="rgb(59 130 246)" />
                       <stop offset="100%" stopColor="rgb(139 92 246)" />
                     </linearGradient>
@@ -195,7 +205,7 @@ export default function Hero() {
                   duration: 4,
                   repeat: Infinity,
                   ease: "easeInOut",
-                  delay: 1
+                  delay: 1,
                 }}
               />
               <motion.div
@@ -208,7 +218,7 @@ export default function Hero() {
                   duration: 5,
                   repeat: Infinity,
                   ease: "easeInOut",
-                  delay: 2
+                  delay: 2,
                 }}
               />
             </div>
