@@ -1,8 +1,8 @@
-'use client';
+"use client";
 
-import { useState, useEffect } from 'react';
-import { motion, AnimatePresence } from 'framer-motion';
-import { Code2 } from 'lucide-react';
+import { useState, useEffect } from "react";
+import { motion, AnimatePresence } from "framer-motion";
+import { Code2 } from "lucide-react";
 
 export default function LoadingScreen() {
   const [isLoading, setIsLoading] = useState(true);
@@ -10,7 +10,7 @@ export default function LoadingScreen() {
 
   useEffect(() => {
     const timer = setTimeout(() => setIsLoading(false), 3000);
-    
+
     const progressTimer = setInterval(() => {
       setProgress((prev) => {
         if (prev >= 100) {
@@ -46,19 +46,19 @@ export default function LoadingScreen() {
                 rotate: {
                   duration: 2,
                   repeat: Infinity,
-                  ease: "linear"
+                  ease: "linear",
                 },
                 scale: {
                   duration: 1,
                   repeat: Infinity,
-                  ease: "easeInOut"
-                }
+                  ease: "easeInOut",
+                },
               }}
               className="mx-auto mb-8 w-20 h-20 rounded-full bg-gradient-to-r from-blue-500 to-purple-600 flex items-center justify-center glow"
             >
               <Code2 className="w-10 h-10 text-white" />
             </motion.div>
-            
+
             <motion.h1
               initial={{ y: 20, opacity: 0 }}
               animate={{ y: 0, opacity: 1 }}
@@ -67,7 +67,7 @@ export default function LoadingScreen() {
             >
               Dev. Arafat Alim
             </motion.h1>
-            
+
             <motion.div
               initial={{ y: 20, opacity: 0 }}
               animate={{ y: 0, opacity: 1 }}
@@ -80,14 +80,14 @@ export default function LoadingScreen() {
                 transition={{ duration: 0.1 }}
               />
             </motion.div>
-            
+
             <motion.p
               initial={{ y: 20, opacity: 0 }}
               animate={{ y: 0, opacity: 1 }}
               transition={{ delay: 0.6 }}
               className="mt-4 text-muted-foreground"
             >
-              Loading amazing portfolio...
+              Please wait...
             </motion.p>
           </div>
         </motion.div>

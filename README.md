@@ -74,7 +74,7 @@ npm run build
 Update the following files with your information:
 
 - `src/components/Hero.tsx` - Name, title, description
-- `src/components/About.tsx` - Services and descriptions  
+- `src/components/About.tsx` - Services and descriptions
 - `src/components/Portfolio.tsx` - Projects and portfolio items
 - `src/components/Skills.tsx` - Skills and experience timeline
 - `src/components/Achievements.tsx` - Certifications and achievements
@@ -92,32 +92,38 @@ The design uses a dark theme with customizable colors in `src/index.css`:
 ## 📱 Features Overview
 
 ### Loading Screen
+
 Beautiful animated loader with progress bar and floating logo.
 
 ### Hero Section
+
 - Animated greeting and introduction
 - Gradient text effects
 - Floating profile image with decorative elements
 - Call-to-action buttons
 
 ### Portfolio Showcase
+
 - Filterable project grid
 - Hover effects and animations
 - Live demo and GitHub links
 - Technology tags
 
 ### Skills & Experience
+
 - Animated skill icons
 - Interactive timeline
 - Hover effects and transitions
 
 ### Admin Dashboard
+
 - Visitor analytics
 - Contact message management
 - Real-time statistics
 - Secure authentication
 
 ### Contact System
+
 - Functional contact form
 - MongoDB storage
 - Discord notifications
@@ -167,10 +173,11 @@ Make sure to set all environment variables in your deployment platform:
 ## 📞 Support
 
 For questions or customization requests, reach out via:
+
 - Email: arafat.aman.alim@gmail.com
 - LinkedIn: [Arafat Alim](https://www.linkedin.com/in/arafat-alim/)
 - GitHub: [Arafat-alim](https://github.com/Arafat-alim)
 
 ---
 
-Built with ❤️ by [Arafat Alim](https://dev-arafat.netlify.app)
+Built with ❤️ by [Arafat Alim](https://v2.dev-arafat-alim.org)
