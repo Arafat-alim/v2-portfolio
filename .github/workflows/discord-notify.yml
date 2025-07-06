@@ -1,0 +1,22 @@
+name: Notify Discord
+
+on:
+  push:
+    branches:
+      - main
+  pull_request:
+    types: [opened, closed]
+
+jobs:
+  discord:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Notify Discord
+        uses: Ilshidur/action-discord@master
+        with:
+          webhook: ${{ secrets.DISCORD_WEBHOOK }}
+          message: |
+            📢 **GitHub Event: `${{ github.event_name }}`**
+            🧑 Actor: `${{ github.actor }}`
+            📁 Repo: `${{ github.repository }}`
+            🔗 URL: https://github.com/${{ github.repository }}/actions
