@@ -3,70 +3,134 @@
     "title": "Full Stack MERN Certification",
     "issuer": "Newton's School",
     "date": "2021",
-    "description": "Completed comprehensive full-stack development program covering React, Node.js, MongoDB, and Express.js",
+    "description": "Certified MERN stack expert, building dynamic web apps with React, Node.js, and MongoDB.",
     "image": "https://res.cloudinary.com/cocoder/image/upload/v1658937982/Office/Academic/Certificates/certificate_1_q72zqc.png"
-  },
-  {
-    "title": "JavaScript Algorithms Certification",
-    "issuer": "FreeCodeCamp",
-    "date": "2021",
-    "description": "Mastered advanced JavaScript concepts, data structures, and algorithmic problem solving",
-    "image": "https://freecodecamp.org/certification/Arafat-Alim/javascript-algorithms-and-data-structures"
   },
   {
     "title": "Meta - Front-End Developer Professional Certificate - Advanced React",
     "issuer": "Coursera",
     "date": "2024",
-    "description": "Advanced React development including hooks, context API, and modern patterns",
+    "description": "Mastered advanced React, crafting modern UIs with hooks, context, and performance patterns.",
     "image": "https://res.cloudinary.com/cocoder/image/upload/v1729946822/Certificates/Coursera%20-%20Meta/Meta_-_Advanced_React_-_Coursera_78BV1N88AKUL_1_grif5m.jpg"
   },
   {
-    "title": "Meta - Front-End Developer Professional Certificate - Basic React",
+    "title": "Meta - Front-End Developer Professional Certificate - React Basic",
     "issuer": "Coursera",
     "date": "2022",
-    "description": "Advanced React development including hooks, context API, and modern patterns",
-    "image": "https://res.cloudinary.com/cocoder/image/upload/v1729946822/Certificates/Coursera%20-%20Meta/Meta_-_Advanced_React_-_Coursera_78BV1N88AKUL_1_grif5m.jpg"
+    "description": "Built a solid foundation in React, creating interactive and component-based user interfaces.",
+    "image": "https://res.cloudinary.com/cocoder/image/upload/v1729946826/Certificates/Coursera%20-%20Meta/Meta_-_Basic_React_-_Coursera_CZSZ8M73DT3V_1_ka8pu9.jpg"
   },
   {
-    "title": "Meta - Front-End Developer Professional Certificate - Basic React",
+    "title": "Meta - Front-End Developer Professional Certificate - Version Control",
     "issuer": "Coursera",
     "date": "2022",
-    "description": "Advanced React development including hooks, context API, and modern patterns",
-    "image": "https://res.cloudinary.com/cocoder/image/upload/v1729946822/Certificates/Coursera%20-%20Meta/Meta_-_Advanced_React_-_Coursera_78BV1N88AKUL_1_grif5m.jpg"
+    "description": "Proficient in Git and version control, ensuring collaborative and streamlined development workflows.",
+    "image": "https://res.cloudinary.com/cocoder/image/upload/v1729946826/Certificates/Coursera%20-%20Meta/Meta_-_Version_Control_-_Coursera_ZNH3UP3YRU6T_1_mcvdfk.jpg"
   },
   {
-    "title": "Meta - Front-End Developer Professional Certificate - Basic React",
+    "title": "Meta - Front-End Developer Professional Certificate - Programming with JavaScript",
     "issuer": "Coursera",
     "date": "2022",
-    "description": "Advanced React development including hooks, context API, and modern patterns",
-    "image": "https://res.cloudinary.com/cocoder/image/upload/v1729946822/Certificates/Coursera%20-%20Meta/Meta_-_Advanced_React_-_Coursera_78BV1N88AKUL_1_grif5m.jpg"
+    "description": "Skilled in JavaScript fundamentals, writing clean, efficient, and maintainable code.",
+    "image": "https://res.cloudinary.com/cocoder/image/upload/v1729946825/Certificates/Coursera%20-%20Meta/Meta_-_Programming_with_JS_-_Coursera_RRF4S6HC2AVL_1_szsxhx.jpg"
   },
   {
-    "title": "Meta - Front-End Developer Professional Certificate - Basic React",
+    "title": "Meta - Front-End Developer Professional Certificate - HTML and CSS in Depth",
     "issuer": "Coursera",
     "date": "2022",
-    "description": "Advanced React development including hooks, context API, and modern patterns",
-    "image": "https://res.cloudinary.com/cocoder/image/upload/v1729946822/Certificates/Coursera%20-%20Meta/Meta_-_Advanced_React_-_Coursera_78BV1N88AKUL_1_grif5m.jpg"
+    "description": "In-depth knowledge of HTML5 and CSS3, creating responsive and accessible web designs.",
+    "image": "https://res.cloudinary.com/cocoder/image/upload/v1729946828/Certificates/Coursera%20-%20Meta/Meta_-_HTML_and_CSS_in_depth_-_Coursera_9YNN5Z7JNJTS_1_enjnta.jpg"
   },
   {
-    "title": "Meta - Front-End Developer Professional Certificate - Basic React",
+    "title": "Microsoft - Azure Management Tools and Security",
     "issuer": "Coursera",
     "date": "2022",
-    "description": "Advanced React development including hooks, context API, and modern patterns",
-    "image": "https://res.cloudinary.com/cocoder/image/upload/v1729946822/Certificates/Coursera%20-%20Meta/Meta_-_Advanced_React_-_Coursera_78BV1N88AKUL_1_grif5m.jpg"
+    "description": "Expertise in Azure security and management, ensuring robust and secure cloud infrastructure.",
+    "image": "https://res.cloudinary.com/cocoder/image/upload/v1732999427/Certificates/Coursera%20-%20Microsoft/Microsoft_-_Microsoft_Azure_Management_Tools_and_Security_Solutions_-_Coursera_K4DR6C3CYBEX_1_ymwye6.png"
   },
   {
-    "title": "Meta - Front-End Developer Professional Certificate - Basic React",
+    "title": "Microsoft - Introduction to Microsoft Azure Sloud Services",
     "issuer": "Coursera",
-    "date": "2022",
-    "description": "Advanced React development including hooks, context API, and modern patterns",
-    "image": "https://res.cloudinary.com/cocoder/image/upload/v1729946822/Certificates/Coursera%20-%20Meta/Meta_-_Advanced_React_-_Coursera_78BV1N88AKUL_1_grif5m.jpg"
+    "date": "2021",
+    "description": "Knowledgeable in Azure cloud services, deploying and managing scalable applications.",
+    "image": "https://res.cloudinary.com/cocoder/image/upload/v1732999426/Certificates/Coursera%20-%20Microsoft/Microsoft_-_Introduction_to_Microsoft_Azure_Cloud_Services_-_Coursera_QFY2SZKB4ZVR_1_jmmgu6.png"
   },
   {
     "title": "The Hong Kong University of Science and Technology - Server-side Development with NodeJS, Express and MongoDB",
     "issuer": "Coursera",
     "date": "2022",
-    "description": "Specialized in building scalable backend applications with Node.js and Express",
+    "description": "Built scalable backends with Node.js, Express, and MongoDB for high-traffic applications.",
     "image": "https://res.cloudinary.com/cocoder/image/upload/v1732999985/Certificates/Coursera%20-%20Backend/Hong_Kong_Univ_-_Server-side_Development_with_NodeJS_Express_-Coursera_BHWK27S6AQAY_1_c5i3ln.png"
+  },
+  {
+    "title": "Genpact Angular Training Certification",
+    "issuer": "TeamLease - EdTech",
+    "date": "2022",
+    "description": "Certified in Angular development, building dynamic and feature-rich single-page applications.",
+    "image": "https://res.cloudinary.com/cocoder/image/upload/v1658939071/Office/Academic/Certificates/Genpact___Angular___3_March_2022-Course_Participation_Certificate_7880_1_bkj8qx.png"
+  },
+  {
+    "title": "Learn the System Design Behind a Multimedia Messaging App",
+    "issuer": "Scaler Academy",
+    "date": "2021",
+    "description": "Designed a scalable multimedia messaging app, understanding complex system architecture.",
+    "image": "https://res.cloudinary.com/cocoder/image/upload/v1751886594/Certificates/Udemy/Learn_System_Design_masterclass_svdtg7.png"
+  },
+  {
+    "title": "AWS Cloud Masterclass - Discovery Day",
+    "issuer": "Ethnus",
+    "date": "2021",
+    "description": "Completed AWS masterclass, gaining expertise in cloud architecture and services.",
+    "image": "https://res.cloudinary.com/cocoder/image/upload/v1751885618/Certificates/Udemy/Participation_in_AWS_Cloud_Masterclass_Discovery_Day_T9V49M97_1_p9o6bo.jpg"
+  },
+  {
+    "title": "The Complete React JS Course - Basic to Advanced",
+    "issuer": "Udemy",
+    "date": "2021",
+    "description": "Comprehensive React knowledge, from fundamentals to advanced concepts for modern web apps.",
+    "image": "https://res.cloudinary.com/cocoder/image/upload/v1751885699/Certificates/Udemy/JavaScript_Basics_To_Advanced_fwjqz1.jpg"
+  },
+  {
+    "title": "JavaScript Basic to Advanced",
+    "issuer": "Udemy",
+    "date": "2021",
+    "description": "Mastered JavaScript from basics to advanced, enabling powerful and dynamic web development.",
+    "image": "https://res.cloudinary.com/cocoder/image/upload/v1751885699/Certificates/Udemy/JavaScript_Basics_To_Advanced_fwjqz1.jpg"
+  },
+  {
+    "title": "Modern JavaScript for ReactJS - ES6",
+    "issuer": "Udemy",
+    "date": "2021",
+    "description": "Expert in modern JavaScript (ES6+) for building efficient and powerful React applications.",
+    "image": "https://res.cloudinary.com/cocoder/image/upload/v1751885308/Certificates/Udemy/Modern_JavaScript_for_ReactJS__ES6_h0lo7q.jpg"
+  },
+  {
+    "title": "Amazon Frontend Using ReactJS - Masterclass",
+    "issuer": "Scaler Academy",
+    "date": "2021",
+    "description": "Built a production-ready Amazon clone, mastering advanced React for e-commerce.",
+    "image": "https://res.cloudinary.com/cocoder/image/upload/v1751886593/Certificates/Udemy/Amazon_Frontend_React_Masterclass_n5gc09.png"
+  },
+  {
+    "title": "Google Cloud Days",
+    "issuer": "GDG Cloud India",
+    "date": "2021",
+    "description": "Experienced in Google Cloud Platform, leveraging its services for scalable solutions.",
+    "image": "https://res.cloudinary.com/cocoder/image/upload/v1658937649/Office/Academic/Certificates/gccd-india-certificate_1_vem6jp.png"
+  },
+
+  {
+    "title": "Industrial Training Program - Machine Learning using Python and IoT",
+    "issuer": "Ardent Computech Pvt. Ltd.",
+    "date": "2019",
+    "description": "Applied machine learning and IoT in real-world projects, driving data-driven insights.",
+    "image": "https://res.cloudinary.com/cocoder/image/upload/v1647002244/Office/Academic/MachineLearningArdent_Cert_ggqyag.png"
+  },
+  {
+    "title": "Industrial Training Program - Web Development (PHP, MySQL)",
+    "issuer": "My WBUT",
+    "date": "2018",
+    "description": "Developed dynamic websites with PHP and MySQL, building a strong web foundation.",
+    "image": "https://res.cloudinary.com/cocoder/image/upload/v1647002248/Office/Academic/MyWBUT_Certificate_bufitr.png"
   }
 ]

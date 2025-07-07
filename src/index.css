@@ -89,18 +89,33 @@
   .embla {
     overflow: hidden;
   }
+
   .embla__container {
     display: flex;
-  }
-  .embla__slide {
-    flex: 0 0 100%;
-    min-width: 0;
   }
 
   .embla__slide {
     position: relative;
-    flex: 0 0 auto;
+    flex: 0 0 100%;
     min-width: 0;
+
+    /* 🛠️ Fix: Prevent content overflow on small screens */
+    word-wrap: break-word;
+    overflow-wrap: break-word;
+    white-space: normal;
+  }
+
+  /* 🛠️ Fix: Handle flex children overflow in testimonial */
+  .embla__slide > div {
+    min-width: 0;
+  }
+
+  /* 🛠️ Optional: Clamp long testimonial text for better UX */
+  .testimonial-content {
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 8;
+    overflow: hidden;
   }
 }
 
