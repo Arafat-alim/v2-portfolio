@@ -9,10 +9,14 @@ import Autoplay from "embla-carousel-autoplay";
 
 export default function Achievements() {
   const [emblaRef, emblaApi] = useEmblaCarousel(
-    // Options: loop for infinite scrolling, align start for multi-item view
     { loop: true, align: "start" },
-    // Plugins: Autoplay slides every 4 seconds, pausing on interaction
-    [Autoplay({ delay: 4000, stopOnInteraction: true, stopOnMouseEnter: true })]
+    [
+      Autoplay({
+        delay: 4000,
+        stopOnInteraction: true,
+        stopOnMouseEnter: true,
+      }),
+    ]
   );
 
   const scrollPrev = useCallback(() => {
@@ -42,15 +46,14 @@ export default function Achievements() {
           <div className="w-20 h-1 bg-gradient-to-r from-blue-500 to-purple-600 mx-auto rounded-full" />
         </motion.div>
 
-        {/* Embla Carousel Structure */}
+        {/* Carousel */}
         <div className="relative">
-          <div className="embla" ref={emblaRef}>
-            <div className="embla__container">
+          <div ref={emblaRef} className="achievement-embla overflow-hidden">
+            <div className="achievement-embla__container flex">
               {achievements.map((achievement, index) => (
-                // Each slide now has the responsive width classes
                 <div
-                  className="embla__slide w-full md:w-1/2 lg:w-1/3 p-4"
                   key={index}
+                  className="achievement-embla__slide shrink-0 w-full md:w-1/2 lg:w-1/3 p-4"
                 >
                   <a
                     href={achievement.image}
@@ -88,6 +91,8 @@ export default function Achievements() {
               ))}
             </div>
           </div>
+
+          {/* Carousel Arrows */}
           <button
             onClick={scrollPrev}
             className="absolute top-1/2 left-0 md:-left-8 transform -translate-y-1/2 bg-black/50 hover:bg-black/80 text-white p-3 rounded-full z-20 transition-colors"
@@ -102,7 +107,7 @@ export default function Achievements() {
           </button>
         </div>
 
-        {/* Stats Section */}
+        {/* Stats */}
         <motion.div
           initial={{ opacity: 0, y: 50 }}
           whileInView={{ opacity: 1, y: 0 }}
